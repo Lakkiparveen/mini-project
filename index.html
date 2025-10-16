@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Record Management</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Student Record Management System</h1>
+    <p class="subtitle">A simple mini project</p>
+
+    <div class="form-section">
+      <input type="text" id="name" placeholder="Enter Name">
+      <input type="email" id="email" placeholder="Enter Email">
+      <button id="addBtn">Add</button>
+      <button id="updateBtn" style="display:none;">Update</button>
+    </div>
+
+    <table id="dataTable">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+
+    <footer>
+      <p>Made by <b>Lakki Parveen</b></p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
